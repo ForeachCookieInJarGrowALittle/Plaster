@@ -1,0 +1,9 @@
+{
+    "powershell.integratedConsole.focusConsoleOrExecute": false,
+    "editor.tabCompletion": "on",
+    "files.defaultLanguage": "powershell",
+    "powershell.sideBar.CommandExplorerExcludeFilter": [],
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+}

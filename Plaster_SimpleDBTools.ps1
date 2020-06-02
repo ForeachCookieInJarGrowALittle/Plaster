@@ -14,13 +14,13 @@ New-PlasterManifest @manifestProperties
 
 $plaster = @{
     TemplatePath    = "GIT:\PlasterTemplate" #(Split-Path $manifestProperties.Path)
-    DestinationPath = "GIT:\module"
+    DestinationPath = "GIT:\SimpleDBTools"
     FullName = "Daniel Gruber"
-    ModuleName = "PSVault"
-    ModuleDesc = "Here is a module description"
-    Version = "1.0.0"
+    ModuleName = "SimpleDBTools"
+    ModuleDesc = "Tools to simplify interaction between 'CustomObjects' and 'Databases'"
+    Version = "0.1.0"
     GitHubUserName = "ForeachCookieInJarGrowALittle"
-    GitHubRepo = "PSVault"
+    GitHubRepo = "SimpleDBTools"
 }
 
 If (!(Test-Path $plaster.DestinationPath)) {

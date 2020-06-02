@@ -4,10 +4,10 @@
   <metadata>
     <name>FullModuleTemplate</name>
     <id>d9df301f-04f5-48e8-aae4-320e50174f55</id>
-    <version>0.0.1</version>
-    <title>Full Module Template</title>
-    <description></description>
-    <author>Rob Sewell</author>
+    <version>0.0.12/version>
+    <title>InvokeBuildTemplate</title>
+    <description>Plaster template including personalized Invoke-Build Structure</description>
+    <author>Daniel Gruber</author>
     <tags></tags>
   </metadata>
   <parameters>
