@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "powershell.integratedConsole.focusConsoleOrExecute": false,
     "editor.tabCompletion": "on",
     "files.defaultLanguage": "powershell",
@@ -6,4 +7,20 @@
     "powershell.codeFormatting.autoCorrectAliases": true,
     "editor.tabSize": 2,
     "editor.detectIndentation": false
+=======
+    //-------- Files configuration --------
+
+    // When enabled, will trim trailing whitespace when you save a file.
+    "files.trimTrailingWhitespace": true,
+
+    "search.exclude": {
+        "Release": true
+    },
+
+    //-------- PowerShell Configuration --------
+
+    // Use a custom PowerShell Script Analyzer settings file for this workspace.
+    // Relative paths for this setting are always relative to the workspace root dir.
+    "powershell.scriptAnalysis.settingsPath": "ScriptAnalyzerSettings.psd1"
+>>>>>>> 16787a8fed9f425a35c4af6f89ba852d177094e2
 }
